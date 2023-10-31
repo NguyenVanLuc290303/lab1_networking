@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/title"
+        android:text="Thead in android Lab1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imageLoader"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:id="@+id/tv_notification"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_loadImage"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Load Image"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:id="@+id/btn_Change"
+        android:layout_gravity="center"
+        android:text="Chuyển đến bài 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
